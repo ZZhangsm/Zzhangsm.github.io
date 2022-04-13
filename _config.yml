@@ -15,15 +15,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "MStips"
+title                    : "Moon"
 title_separator          : "-"
-subtitle                 : "Tips for Mathematical Statistics."
-description              : "For Chinese version, please follow MStips in WeChat."
-url                      : "https://matcxf.github.io"
-baseurl                  : "/matcxf.github.io"
-repository               : "matcxf/matcxf.github.io"
+subtitle                 : "We choose to go to the Moon."
+description              : "personal website of Zhang Songming."
+url                      : "https://zzhangsm.github.io"
+baseurl                  : 
+repository               : "zzhangsm/zzhangsm.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : fengmian.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -99,18 +99,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xiaofeng Chen"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : Professor of Mathematics at Chongqing Jiaotong University, Chongqing
+  name             : "Songming Zhang"
+  avatar           : fengmian.jpg
+  bio              : Graduate student of Mathematics at Chongqing Jiaotong University, Chongqing
   location         : "Chongqing, China"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "http://math.cqjtu.edu.cn/info/1015/4292.htm"
+      url: "mailto:zzhangsm@qq.com"
+    #- label: "Website"
+    # icon: "fas fa-fw fa-link"
+    # url: "http://math.cqjtu.edu.cn/info/1015/4292.htm"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url: "https://twitter.com/"
@@ -119,7 +119,7 @@ author:
     #   # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/matcxf"
+      url: "https://github.com/zzhangsm"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
