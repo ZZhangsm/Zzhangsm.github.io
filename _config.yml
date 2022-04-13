@@ -14,7 +14,7 @@ remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-US" #zh-CN
 title                    : "Moon"
 title_separator          : "-"
 subtitle                 : "We choose to go to the Moon."
@@ -23,7 +23,7 @@ url                      : "https://zzhangsm.github.io"
 baseurl                  : 
 repository               : "zzhangsm/zzhangsm.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : fengmian.jpg
+logo                     : "/assets/images/header.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -73,6 +73,26 @@ google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
+
+main:
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Pages"
+    url: /page-archive/
+  - title: "Collections"
+    url: /collection-archive/
+
+#gallery:
+#  - url: /assets/images/unsplash-gallery-image-1.jpg
+#    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+#    alt: "placeholder image 1"
+#    title: "Image 1 title caption"
 
 # Social Sharing
 twitter:
