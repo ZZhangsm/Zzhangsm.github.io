@@ -23,7 +23,7 @@ url                      : "https://zzhangsm.github.io"
 baseurl                  : 
 repository               : "zzhangsm/zzhangsm.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/header.jpg"
+logo                     : fengmian.jpg #"/assets/image/header.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -120,10 +120,10 @@ analytics:
 # Site Author
 author:
   name             : "Songming Zhang"
-  avatar           : fengmian.jpg
+  avatar           : "/assets/image/header.jpg"
   bio              : Graduate student of Mathematics at Chongqing Jiaotong University, Chongqing
   location         : "Chongqing, China"
-  email            :
+  email            : "zzhangsm@qq.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
