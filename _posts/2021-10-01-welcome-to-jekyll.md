@@ -30,11 +30,14 @@ edge2elem = uint32([t1,t2,k1,k2]);
 ## LaTeX
 
 Equation
+
 $$
 E = mc^2,
 \tag{1}
 $$
+
 Multiline equation
+
 $$
 \displaystyle
 \int_{\Omega}  \nabla \boldsymbol{\phi} : \nabla\boldsymbol{\psi} = 
