@@ -4,7 +4,8 @@ date: 2022-04-21
 categories:
   - Paper
 tags:
-  - note
+  - notebook
+  - machine learning
 ---
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -46,6 +47,11 @@ falling into dummy nodes are classified by the trained collective network.
    - 用此神经网络根据训练数据生成新的标签，并根据完全随机数据及参数mu生成标签，mu标志着额外数据的比例
    - 集合以上三种数据训练C4.5
   
-# **Ensemble model **
 
-1. 
+# ** Ensemble model **
+
+1. Adaboost + imbalance data
+  - Name: <a href="https://doi.org/10.1016/j.ins.2021.03.042" target="_blank">The improved AdaBoost algorithms for imbalanced data classification</a>
+  - 影响类不平衡问题的显著因素: 类重叠、 边界实例、 有小分叉的区域、 有噪声的数据、 稀疏型数据、 训练与目标差异；
+  - Enhanced Adaboost: 给弱分类器权重项增加少数类的惩罚项;
+  - Reinforce Adaboost: 再考虑数据中正负例比例.
