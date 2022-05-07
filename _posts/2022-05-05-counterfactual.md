@@ -16,7 +16,7 @@ tags:
 	});
 </script>
 
-# Countfactual explanation
+# Imbalance
 
 1. 类不平衡+反事实+过采样
   - Name: <a href="http://arxiv.org/abs/2008.09488" target="_blank">
@@ -25,5 +25,4 @@ tags:
    - 决策边界附近样本在分类时贡献更大；
    - 使用MAD（某个特征变量的中值绝对偏差）度量距离，生成的样本点更聚集在决策边界处；
    - “minimum inversion”：扰动满足截断正态分布，抽样使用吉布斯抽样
-
 ![](my_pics/c_1.jpg)
