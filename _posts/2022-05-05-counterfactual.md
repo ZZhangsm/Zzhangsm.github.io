@@ -19,8 +19,9 @@ tags:
 #  Optimization
 
 1. WACH
-- 损失函数 $$ L=\lambda ( b(x^{'} - y^{'})^{2} + d(x, x^{'} ）$$ ; 最大化 $\lambda$, 最小化损失函数；
-- 距离函数  $ d(x ,x^{'}) = \sum_{i}^{m} \dfrac{ \| x_{i} - x_{i}^{'} \|} {MAD_{i}}$
+- 损失函数 $ L= \lambda ( b(x^{'} - y^{'})^{2} + d(x, x^{'} ）$ ; 
+  最大化 $\lambda$, 最小化损失函数；
+- 距离函数  $$ d(x ,x^{'}) = \sum_{i}^{m} \dfrac{ \| x_{i} - x_{i}^{'} \|} {MAD_{i}}$$
 
 
 
@@ -33,4 +34,4 @@ tags:
    - 决策边界附近样本在分类时贡献更大；
    - 生成的样本点更聚集在决策边界处；
    - “minimum inversion”：扰动满足截断正态分布，抽样使用吉布斯抽样
-   -  ![](my_pics/c_1.jpg)
+  <img src="{{site.baseurl}}/my_pics/c_1.jpg" width=600>
