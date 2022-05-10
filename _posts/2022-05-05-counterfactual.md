@@ -17,11 +17,11 @@ tags:
 </script>
 
 #  Optimization
-
+事实$x$, 反事实$x_{cf}$
 1. WACH
-- 损失函数 $ L= \lambda b( x^{'} - y^{'} )^{2} + d( x, x^{'} ) $ ; 
+- 损失函数 $ L= \lambda b( x_{cf} - y^{'} )^{2} + d( x, x_{cf} ) $ ; 
   最大化 $\lambda$, 最小化损失函数；
-- 距离函数  $ d(x ,x^{'}) = \sum_{i}^{m} \dfrac{ \| x_{i} - x_{i}^{'} \|} {MAD_{i}}$
+- 距离函数  $ d(x ,x_{cf}) = \sum_{i}^{m} \dfrac{ \| x_{i} - x_{i}_{cf} \|} {MAD_{i}}$
 
 
 
