@@ -19,7 +19,7 @@ tags:
 #  Optimization
 
 1. WACH
-- 损失函数 $ L= \lambda ( b(x^{'} - y^{'})^{2} + d(x, x^{'} ）$ ; 
+- 损失函数 $ L= \lambda b（x^{'} - y^{'})^{2} + d(x, x^{'}）$ ; 
   最大化 $\lambda$, 最小化损失函数；
 - 距离函数  $$ d(x ,x^{'}) = \sum_{i}^{m} \dfrac{ \| x_{i} - x_{i}^{'} \|} {MAD_{i}}$$
 
